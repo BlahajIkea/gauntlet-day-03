@@ -4,9 +4,7 @@
 
 Entity::Entity(std::string name)
 {
-    Entity e;
-
-    e.describe()
-    
-
+    m_name = name;
 }
+
+Entity::~Entity() {}
