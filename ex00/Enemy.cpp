@@ -6,6 +6,8 @@ Enemy::Enemy(std::string name, int hp) : Entity(name)
 {
         m_name = name;
         m_hp = hp;
-        Enemy e;
-        e.describe();
+}
+
+std::string Enemy::describe() const {
+    return "Enemy " + m_name;
 }
