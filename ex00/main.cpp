@@ -3,13 +3,13 @@
 #include <memory>
 
 #include "Enemy.hpp"
+#include "Entity.hpp"
+#include"Player.hpp"
 
 int main() {
-
+    
     // main.cpp
-
-    /*
-    std::vector<std::unique_ptr = e std::make_unique <Entity>
+    std::vector<std::unique_ptr<Entity>> party;
     party.push_back(std::make_unique<Player>("Aria"));
     party.push_back(std::make_unique<Enemy>("Goblin", 12));
     party.push_back(std::make_unique<Player>("Bran"));
@@ -19,5 +19,4 @@ int main() {
         std::cout << e->describe() << '\n';
     // unique_ptr frees every element here; with raw Entity* you'd delete in a loop
     
-    */
 }

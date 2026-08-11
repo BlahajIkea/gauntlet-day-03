@@ -1,23 +1,12 @@
-class Entity {
-    public:
-        
-    private:
 
-};
+#include <string>
+#include "Entity.hpp"
 
-class Enemy : Entity {
-    public:
-
-    private:
-
-};
-
-
-class Player : Entity 
+Entity::Entity(std::string name)
 {
-    public:
+    Entity e;
 
-    private:
+    e.describe()
+    
 
-};
-
+}
