@@ -7,8 +7,9 @@
 int main() {
 
     // main.cpp
-    std::vector<std::unique_ptr = e std::make_unique <Entity> party;
-    
+
+    /*
+    std::vector<std::unique_ptr = e std::make_unique <Entity>
     party.push_back(std::make_unique<Player>("Aria"));
     party.push_back(std::make_unique<Enemy>("Goblin", 12));
     party.push_back(std::make_unique<Player>("Bran"));
@@ -17,4 +18,6 @@ int main() {
     for (const auto& e : party)                 // single loop, base type only
         std::cout << e->describe() << '\n';
     // unique_ptr frees every element here; with raw Entity* you'd delete in a loop
+    
+    */
 }
